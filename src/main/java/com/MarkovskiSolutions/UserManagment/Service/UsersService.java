@@ -11,9 +11,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.MarkovskiSolutions.UserManagment.DAO.UsersDao;
 import com.MarkovskiSolutions.UserManagment.Entity.User;
-
-import Exceptions.InputException;
-import Exceptions.UserNotFoundException;
+import com.MarkovskiSolutions.UserManagment.Exceptions.InputException;
+import com.MarkovskiSolutions.UserManagment.Exceptions.UserNotFoundException;
 
 @Service
 public class UsersService {

@@ -12,10 +12,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.MarkovskiSolutions.UserManagment.Entity.User;
+import com.MarkovskiSolutions.UserManagment.Exceptions.InputException;
+import com.MarkovskiSolutions.UserManagment.Exceptions.UserNotFoundException;
 import com.MarkovskiSolutions.UserManagment.Service.UsersService;
-
-import Exceptions.InputException;
-import Exceptions.UserNotFoundException;
 
 @RestController
 @RequestMapping(value = "/users")

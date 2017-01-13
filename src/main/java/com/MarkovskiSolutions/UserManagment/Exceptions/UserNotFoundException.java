@@ -1,4 +1,4 @@
-package Exceptions;
+package com.MarkovskiSolutions.UserManagment.Exceptions;
 
 public class UserNotFoundException extends Exception {
 	/**

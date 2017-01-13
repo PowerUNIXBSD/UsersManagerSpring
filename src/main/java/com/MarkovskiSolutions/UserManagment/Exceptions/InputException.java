@@ -1,4 +1,4 @@
-package Exceptions;
+package com.MarkovskiSolutions.UserManagment.Exceptions;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
